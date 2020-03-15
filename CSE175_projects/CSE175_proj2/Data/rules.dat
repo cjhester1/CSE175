@@ -1,0 +1,4 @@
+(DEFRULE Criminality (American ?x) (Weapon ?y) (Sells ?x ?y ?z) (Hostile ?z) => (Criminal ?x))
+(DEFRULE MissilesFromWest (Missile ?x) (Owns Nono ?x) => (Sells West ?x Nono))
+(DEFRULE MissilesAreWeapons (Missile ?x) => (Weapon ?x))
+(DEFRULE EnemiesAreHostile (Enemy ?x America) => (Hostile ?x))

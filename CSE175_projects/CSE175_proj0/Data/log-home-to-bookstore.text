@@ -1,0 +1,41 @@
+UNINFORMED SEARCH ALGORITHM COMPARISON
+Enter the name of the location file:
+small-locations.dat
+Enter the name of the road file:
+small-roads.dat
+Enter the name of the initial location:
+home
+Enter the name of the destination location:
+bookstore
+TESTING BFS WITHOUT REPEATED STATE CHECKING
+Solution:
+START AT home.
+TAKE central FROM home TO bus-station.
+TAKE highway-north FROM bus-station TO fast-food.
+TAKE highway-east FROM fast-food TO bookstore.
+Path Cost = 15.300000.
+Number of Node Expansions = 63.
+TESTING BFS WITH REPEATED STATE CHECKING
+Solution:
+START AT home.
+TAKE central FROM home TO bus-station.
+TAKE highway-north FROM bus-station TO fast-food.
+TAKE highway-east FROM fast-food TO bookstore.
+Path Cost = 15.300000.
+Number of Node Expansions = 12.
+TESTING DFS WITHOUT REPEATED STATE CHECKING
+Solution:
+None found.
+Number of Node Expansions = 1000.
+TESTING DFS WITH REPEATED STATE CHECKING
+Solution:
+START AT home.
+TAKE central FROM home TO bus-station.
+TAKE stadium-street FROM bus-station TO stadium.
+TAKE gravel-road FROM stadium TO ranch.
+TAKE old-highway FROM ranch TO diner.
+TAKE access-road FROM diner TO bookstore.
+Path Cost = 71.800000.
+Number of Node Expansions = 6.
+ALGORITHM COMPARISON COMPLETE
+
