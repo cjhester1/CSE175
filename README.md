@@ -1,2 +1,2 @@
 # CSE175
-Projects from Introduction to Artificial Intelligence
+ Artificial Intelligence Projects
